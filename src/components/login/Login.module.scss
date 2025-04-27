@@ -38,6 +38,7 @@
     p {
       color: blue;
       font-size: 1rem;
+      height: 10%;
     }
   }
 
@@ -62,11 +63,13 @@
     //border: solid green;
     display: flex;
     justify-content: space-evenly;
+    
     button{
         width: 5vw;
-        height: 4vh;
+        height: 5vh;
         border-radius: 6px;
         font-size: 1rem;
+        
     }
   }
 

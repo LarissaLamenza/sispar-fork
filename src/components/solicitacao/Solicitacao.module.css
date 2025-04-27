@@ -1,0 +1,204 @@
+.layoutSolicitacao {
+  display: flex;
+}
+
+.containerPrincipalSolicitacao {
+  width: 95vw;
+}
+
+.headerSolicitacao {
+  width: 30vw;
+  display: flex;
+}
+
+.mainSolicitacao {
+  width: 100%;
+}
+
+.formMain {
+  display: flex;
+  justify-content: space-between;
+}
+
+label {
+  font-weight: 700;
+  font-size: 1rem;
+  color: #23282f;
+}
+
+input,
+select,
+textarea {
+  border-radius: 6px;
+  border: solid #cbd4e1 0.8px;
+  height: 4vh;
+  width: 100%;
+}
+
+.formGrupo1 {
+  width: 35%;
+  height: 25vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.inputNome {
+  width: 45%;
+}
+
+.inputEmpresa {
+  width: 25%;
+}
+
+.inputPrestacao {
+  width: 25%;
+}
+
+.inputMotivo {
+  width: 100%;
+}
+.inputMotivo textarea {
+  height: 10vh;
+}
+
+.barraVertical {
+  background-color: #cbd4e1;
+  height: 25vh;
+  width: 0.1vw;
+}
+
+.formGrupo2 {
+  width: 60%;
+  height: 25vh;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.inputData {
+  width: 20%;
+}
+
+.tipoDeDespesas {
+  width: 30%;
+}
+
+.centroDeCusto {
+  width: 45%;
+}
+
+.ordem,
+.divisoes,
+.pep,
+.distancia {
+  width: 8%;
+}
+
+.moeda,
+.valorKm,
+.valorFaturado,
+.despesa {
+  width: 11%;
+}
+
+.botoes {
+  width: 15%;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 0.5rem;
+  height: 6vh;
+}
+.botoes .salvar {
+  background-color: #001a3d;
+  color: #ffffff;
+  width: 60%;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.botoes .deletar {
+  width: 30%;
+  background-color: #00bedd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+table {
+  width: 100%;
+  border: solid;
+  border-collapse: collapse;
+}
+
+th {
+  background-color: #CBD4E1;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #23282f;
+  font-size: 1rem;
+}
+
+th,
+td {
+  border: solid;
+  text-align: center;
+}
+
+.btnLixeira {
+  border: none;
+}
+.btnLixeira :hover {
+  background-color: #a60b2f;
+  border-radius: 6px;
+}
+
+.footerSolicitacao {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  width: 100%;
+  height: 15vh;
+}
+.footerSolicitacao section {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 50%;
+  height: 15vh;
+}
+.footerSolicitacao div {
+  width: 20%;
+  height: 10vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.footerSolicitacao .boxButtonFooter {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 50%;
+}
+.footerSolicitacao .boxButtonFooter .buttonAnalise {
+  background-color: #001a3d;
+  width: 40%;
+  height: 6vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  color: white;
+}
+.footerSolicitacao .boxButtonFooter .buttonCancelar {
+  background-color: #a60b2f;
+  width: 40%;
+  height: 6vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  color: white;
+}/*# sourceMappingURL=Solicitacao.module.css.map */
